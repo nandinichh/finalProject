@@ -15,18 +15,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="126-00-sWD">
-                                <rect key="frame" x="77" y="167" width="260" height="256"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stay Aware" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-nh-TBR">
-                                <rect key="frame" x="29" y="66" width="356" height="132"/>
+                                <rect key="frame" x="29" y="5" width="356" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="50"/>
-                                <color key="textColor" red="0.38900060024009608" green="0.55294117647058827" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="57"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="11" height="-1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCk-ee-pfR">
+                                <rect key="frame" x="39" y="410" width="336" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="africa" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.80784313730000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="126-00-sWD">
+                                <rect key="frame" x="65" y="114" width="284" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJY-Sa-j4p">
+                                <rect key="frame" x="39" y="498" width="336" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="asia" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.80784313730000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bK-5X-v10">
+                                <rect key="frame" x="39" y="586" width="336" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="europe" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.80784313730000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxX-iy-yZd">
+                                <rect key="frame" x="39" y="676" width="336" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="n. america" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.80784313730000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-5Q-mR7">
+                                <rect key="frame" x="39" y="766" width="336" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="s. america" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.80784313730000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.98235541579999996" green="0.92395734789999995" blue="0.72153347729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
