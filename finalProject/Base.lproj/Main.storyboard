@@ -91,7 +91,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Practice"/>
                                 <connections>
-                                    <segue destination="bfX-Co-yGL" kind="show" id="KxV-W7-Lth"/>
+                                    <segue destination="bfX-Co-yGL" kind="presentation" modalPresentationStyle="fullScreen" id="KxV-W7-Lth"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,11 +236,11 @@
             <objects>
                 <viewController id="bfX-Co-yGL" customClass="practiceViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="km0-oF-ZbL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfg-ca-fdZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BU8-11-fq2">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -263,6 +263,20 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSW-J3-mKL">
                                                 <rect key="frame" x="40" y="301" width="334" height="501"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7Ph-RI-cpj">
+                                                        <rect key="frame" x="47" y="58" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="g2O-vX-Lf9">
+                                                        <rect key="frame" x="47" y="364" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="bxa-UT-5ML">
+                                                        <rect key="frame" x="47" y="205" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="501" id="vLX-cY-UjP"/>
@@ -295,7 +309,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SnK-LQ-eKh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.92156862750000001" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tfg-ca-fdZ" firstAttribute="top" secondItem="km0-oF-ZbL" secondAttribute="top" id="dbZ-RJ-X8G"/>
                             <constraint firstAttribute="trailing" secondItem="tfg-ca-fdZ" secondAttribute="trailing" id="oag-mZ-oL8"/>
