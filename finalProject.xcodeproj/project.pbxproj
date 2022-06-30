@@ -17,6 +17,7 @@
 		205AB996286B8AA10023A1F7 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB995286B8AA10023A1F7 /* finalProjectTests.swift */; };
 		205AB9A0286B8AA10023A1F7 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB99F286B8AA10023A1F7 /* finalProjectUITests.swift */; };
 		205AB9A2286B8AA10023A1F7 /* finalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB9A1286B8AA10023A1F7 /* finalProjectUITestsLaunchTests.swift */; };
+		CA37B8B4286E26F00040A755 /* practiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37B8B3286E26F00040A755 /* practiceViewController.swift */; };
 		CA97FE9A286CBBDE008FFF72 /* africa0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FE99286CBBDE008FFF72 /* africa0ViewController.swift */; };
 		CA97FE9C286CBBF0008FFF72 /* asia0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FE9B286CBBF0008FFF72 /* asia0ViewController.swift */; };
 		CA97FE9E286CBC04008FFF72 /* europe0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FE9D286CBC04008FFF72 /* europe0ViewController.swift */; };
@@ -56,6 +57,7 @@
 		205AB99B286B8AA10023A1F7 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		205AB99F286B8AA10023A1F7 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		205AB9A1286B8AA10023A1F7 /* finalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA37B8B3286E26F00040A755 /* practiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceViewController.swift; sourceTree = "<group>"; };
 		CA97FE99286CBBDE008FFF72 /* africa0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africa0ViewController.swift; sourceTree = "<group>"; };
 		CA97FE9B286CBBF0008FFF72 /* asia0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asia0ViewController.swift; sourceTree = "<group>"; };
 		CA97FE9D286CBC04008FFF72 /* europe0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europe0ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				CA97FEA1286CBC69008FFF72 /* northAmerica0ViewController.swift */,
 				CA97FEA4286CBC8A008FFF72 /* southAmerica0ViewController.swift */,
 				205AB981286B8A9E0023A1F7 /* Main.storyboard */,
+				CA37B8B3286E26F00040A755 /* practiceViewController.swift */,
 				205AB987286B8AA00023A1F7 /* Assets.xcassets */,
 				205AB989286B8AA00023A1F7 /* LaunchScreen.storyboard */,
 				205AB98C286B8AA00023A1F7 /* Info.plist */,
@@ -281,6 +284,7 @@
 				205AB980286B8A9E0023A1F7 /* ViewController.swift in Sources */,
 				205AB97C286B8A9E0023A1F7 /* AppDelegate.swift in Sources */,
 				CA97FE9E286CBC04008FFF72 /* europe0ViewController.swift in Sources */,
+				CA37B8B4286E26F00040A755 /* practiceViewController.swift in Sources */,
 				CA97FE9A286CBBDE008FFF72 /* africa0ViewController.swift in Sources */,
 				CA97FE9C286CBBF0008FFF72 /* asia0ViewController.swift in Sources */,
 				205AB986286B8A9E0023A1F7 /* finalProject.xcdatamodeld in Sources */,
