@@ -13,7 +13,7 @@ class practiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        label1.text = "South Africa has one of the most unequal school systems in the world. Children in the top 200 schools achieve more distinctions in mathematics than children in the next 6,600 schools combined. The playing field must be levelled."
+        label1.text = "South Africa has one of the most unequal school systems in the world. Children in the top 200 schools achieve more distinctions in mathematics than children in the next 6,600 schools combined. The playing field must be levelled. South Africa has one of the most unequal school systems in the world. Children in the top 200 schools achieve more distinctions in mathematics than children in the next 6,600 schools combined. The playing field must be levelled.South Africa has one of the most unequal school systems in the world. Children in the top 200 schools achieve more distinctions in mathematics than children in the next 6,600 schools combined. The playing field must be levelled."
 
         // Do any additional setup after loading the view.
     }
