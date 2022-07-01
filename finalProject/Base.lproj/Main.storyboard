@@ -68,10 +68,6 @@
                                     <segue destination="9HY-7V-Yrs" kind="show" id="o1c-mY-FRQ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="126-00-sWD">
-                                <rect key="frame" x="52" y="44" width="310" height="310"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjK-5Q-mR7">
                                 <rect key="frame" x="39" y="710" width="336" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,15 +79,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Fh5-qw-YaN" kind="show" id="b36-98-2A1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1G-Vy-YAm">
-                                <rect key="frame" x="168" y="777" width="78" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Practice"/>
-                                <connections>
-                                    <segue destination="bfX-Co-yGL" kind="presentation" modalPresentationStyle="fullScreen" id="KxV-W7-Lth"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -132,6 +119,37 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="QZO-0a-p7R"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nul-Hp-CNF">
+                                <rect key="frame" x="98" y="65" width="219" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.38900060019999999" green="0.55294117649999996" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="49" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="at4-3l-dVQ">
+                                <rect key="frame" x="16" y="111" width="382" height="462"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text" base64-UTF8="YES">
+Cg
+</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17.666667938232422"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaC-mm-ho7">
+                                <rect key="frame" x="20" y="23" width="374" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">South Africa is one of the most beautiful countries in the world for its immense biodiversity, but the inequality in society is deeply marred. South Africa has one of the most unequal education systems in the world. Approximately 60% of learning was lost for students living in socioeconomically disadvantaged communities. In addition, one of the major challenges comes with the educators. Some South African public teachers could not pass simple Mathematics and English tests. This is a major issue due to the fact that data published by Statistics South Africa at the start of June 2021, shows that the official unemployment rate among youth 15-34 years was 46.3%. Additionally, 7.2 million unemployed persons in the first quarter of 2021 had education levels below matric. 
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="d2z-wP-VuW">
+                                <rect key="frame" x="13" y="539" width="385" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gL0-Q0-8Fq"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.92549026010000002" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -176,6 +194,27 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="gm9-qG-DWB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sexism" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mo9-D5-rOX">
+                                <rect key="frame" x="98" y="66" width="219" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.38900060019999999" green="0.55294117649999996" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-u9-pcL">
+                                <rect key="frame" x="20" y="530" width="374" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXC-Y3-lqd">
+                                <rect key="frame" x="20" y="20" width="374" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">In many South Asian countries, their social norms and traditions are fueling the gender inequality in the area. Due to Covid-19, many women and children are restricted access to healthcare. The UN reports that “an estimated 228,000 children and 11,000 mothers’ mortality and morbidity during the first wave of the pandemic.” Unfortunately, health isn’t the only thing that is being restricted because the UN also notes that 4.5 million girls likely won’t go back to school to receive an education, which is especially problematic because they are less likely to receive digital education than boys. All of these lend to a problem of domestic violence in households, lack of freedom, and absence of decision-making from women in South Asia.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="roZ-q8-IcI"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.92549026010000002" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -221,6 +260,25 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="QCp-rR-Tee"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Islamophobia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4q-ao-Xc2">
+                                <rect key="frame" x="98" y="61" width="219" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.38900060019999999" green="0.55294117649999996" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKv-3Q-1GG">
+                                <rect key="frame" x="0.0" y="36" width="414" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">France houses a large number of Muslims due to immigration from Middle Eastern countries such as Algeria and Saudi Arabia. A pressing issue within Europe is the alienation and discrimination against Muslims. French people believe that Islam is too "dangerous" of a religion and shouldn't be allowed within France. Several laws have been put in place that affect religious freedom. In 2011, face veils were banned from being worn in public. In 2017, officials were given the power to close places of worship. In 2019, a law was created to limit religious signs at school, meaning that hijabs or any other modesty garment wouldn't be allowed. This law was opposed by the government but still the dangerous precedent the French laws have set cause Muslims to be in constant fear of their safety in countries such as France.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="sPs-bS-Pro">
+                                <rect key="frame" x="10" y="500" width="394" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="57r-5l-Ip0"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.92549026010000002" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -263,20 +321,6 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSW-J3-mKL">
                                                 <rect key="frame" x="40" y="301" width="334" height="501"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7Ph-RI-cpj">
-                                                        <rect key="frame" x="47" y="58" width="240" height="128"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="g2O-vX-Lf9">
-                                                        <rect key="frame" x="47" y="364" width="240" height="128"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-28 at 12.54.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="bxa-UT-5ML">
-                                                        <rect key="frame" x="47" y="205" width="240" height="128"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="501" id="vLX-cY-UjP"/>
@@ -341,6 +385,13 @@
                                 <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abortion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMM-T3-aMZ">
+                                <rect key="frame" x="136" y="79" width="154" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
+                                <color key="textColor" red="0.38900060019999999" green="0.55294117649999996" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6K-bL-FP0">
                                 <rect key="frame" x="154" y="774" width="107" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -361,9 +412,24 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="rNS-cD-TCH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="41" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oX5-gK-xqP">
+                                <rect key="frame" x="16" y="124" width="382" height="482"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">There are three court cases that are relevant to understanding this topic. The first is Roe v. Wade, which was a landmark case that gave a ruling on women’s right to their bodies and abortion. The second is Planned Parenthood v. Casey (1992) which upheld Roe v. Wade and ruled that states were prohibited from banning most abortions. However, the case Dobbs v. Jackson Women's Health Organization (2022) was a case that started in Mississippi and decided whether the state had a right to ban abortions after 15 weeks. Eventually, the case reached SCOTUS, with the decision not only upholding the state’s abortion law but also challenging the Roe v. Wade and Planned Parenthood v. Casey cases. As Roe v. Wade gets overturned, there were 13 states that have trigger laws to limit the right to abortions, while 16 states and D.C have laws to protect the right to abortions. The impact of this ruling did not cause abortions to decrease, but it caused safe abortions to decrease, putting more lives at risk.
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17.666667938232422"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="9ax-DC-59a">
+                                <rect key="frame" x="20" y="570" width="374" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nGA-rw-6OV"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.92549026010000002" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                     </view>
                     <navigationItem key="navigationItem" id="uz2-Vd-4I6"/>
                 </viewController>
@@ -406,6 +472,27 @@
                                 <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Femicide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EB-Sp-Foz">
+                                <rect key="frame" x="132" y="78" width="151" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
+                                <color key="textColor" red="0.38900060019999999" green="0.55294117649999996" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="49" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QB-ua-m6W">
+                                <rect key="frame" x="16" y="124" width="382" height="462"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Femicide is a prevalent issue in South America. Over the last few years, women have been victims of male chauvinism in their day-to-day activities more than ever. According to CEPAL, in 2020, at least 4,091 women were victims of femicide. As well, 43% of the women population declared that they had experienced violence from their husband or a partner. Some countries are trying to change, or at least that is what they advertise. Countries like Bolivia reported 41 femicides in 2021, this number would maintain their number from last year; nevertheless, the Circle of Women reported 108 femicides in the country. This would imply that the government and police departments alter their statistics to appear as if they were making a change. This is not just happening in Bolivia it is happening in many other countries in South America. Femicide is a problem that is encountered in many countries around the world, but the Latin American regions report the highest. 
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17.666667938232422"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.32549019610000002" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sipaphotosten221951 RESIZE" translatesAutoresizingMaskIntoConstraints="NO" id="CvK-gV-xB4">
+                                <rect key="frame" x="-94" y="549" width="603" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8HQ-M2-rbm"/>
                         <color key="backgroundColor" red="0.98431372640000003" green="0.92549026010000002" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -418,10 +505,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QZO-0a-p7R"/>
+        <segue reference="gm9-qG-DWB"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Screen Shot 2022-06-28 at 12.54.24 PM" width="976" height="978"/>
+        <image name="Image" width="299" height="168"/>
+        <image name="Image-1" width="550" height="367"/>
+        <image name="images" width="300" height="168"/>
+        <image name="images-1" width="300" height="168"/>
+        <image name="sipaphotosten221951 RESIZE" width="960" height="640"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
