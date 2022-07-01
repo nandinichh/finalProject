@@ -11,11 +11,11 @@ class trackerViewController: UIViewController {
     
     let stepper : UIStepper = {
         let stepper = UIStepper()
-        stepper.minimumValue = -1
-        stepper.maximumValue = 21
+        stepper.minimumValue = 0
+        stepper.maximumValue = 365
         stepper.stepValue = 1
         
-        stepper.value = 0
+        stepper.value = 1
         
         stepper.addTarget(self, action: #selector(update(_:)), for: .valueChanged)
         
