@@ -23,6 +23,7 @@
 		CA97FE9E286CBC04008FFF72 /* europe0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FE9D286CBC04008FFF72 /* europe0ViewController.swift */; };
 		CA97FEA2286CBC69008FFF72 /* northAmerica0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FEA1286CBC69008FFF72 /* northAmerica0ViewController.swift */; };
 		CA97FEA5286CBC8A008FFF72 /* southAmerica0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97FEA4286CBC8A008FFF72 /* southAmerica0ViewController.swift */; };
+		CAF99534286F5C0800056AA1 /* trackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF99533286F5C0800056AA1 /* trackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		CA97FE9D286CBC04008FFF72 /* europe0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europe0ViewController.swift; sourceTree = "<group>"; };
 		CA97FEA1286CBC69008FFF72 /* northAmerica0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northAmerica0ViewController.swift; sourceTree = "<group>"; };
 		CA97FEA4286CBC8A008FFF72 /* southAmerica0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southAmerica0ViewController.swift; sourceTree = "<group>"; };
+		CAF99533286F5C0800056AA1 /* trackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CA97FE9D286CBC04008FFF72 /* europe0ViewController.swift */,
 				CA97FEA1286CBC69008FFF72 /* northAmerica0ViewController.swift */,
 				CA97FEA4286CBC8A008FFF72 /* southAmerica0ViewController.swift */,
+				CAF99533286F5C0800056AA1 /* trackerViewController.swift */,
 				205AB981286B8A9E0023A1F7 /* Main.storyboard */,
 				CA37B8B3286E26F00040A755 /* practiceViewController.swift */,
 				205AB987286B8AA00023A1F7 /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 				CA97FEA5286CBC8A008FFF72 /* southAmerica0ViewController.swift in Sources */,
 				205AB980286B8A9E0023A1F7 /* ViewController.swift in Sources */,
 				205AB97C286B8A9E0023A1F7 /* AppDelegate.swift in Sources */,
+				CAF99534286F5C0800056AA1 /* trackerViewController.swift in Sources */,
 				CA97FE9E286CBC04008FFF72 /* europe0ViewController.swift in Sources */,
 				CA37B8B4286E26F00040A755 /* practiceViewController.swift in Sources */,
 				CA97FE9A286CBBDE008FFF72 /* africa0ViewController.swift in Sources */,
